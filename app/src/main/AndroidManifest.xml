@@ -12,7 +12,7 @@
         android:theme="@style/Theme.TPAnexo1MenuConLogin"
         tools:targetApi="31">
         <service
-            android:name=".ServicioMusica"
+            android:name=".ui.musica.ServicioMusica"
             android:enabled="true"
             android:exported="true">
 
