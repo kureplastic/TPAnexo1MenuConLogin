@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">TPAnexo1MenuConLogin</string>
+    <string name="app_name">Menu con Login</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hola Usuario!</string>
+    <string name="nav_header_subtitle">Bienvenido al Menu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+
+    <string name="menu_home">Bienvenido</string>
+    <string name="menu_ubicacion">Mi Ubicacion</string>
+    <string name="menu_musica">Mi Musica</string>
+    <string name="menu_salir">Salir</string>
 </resources>

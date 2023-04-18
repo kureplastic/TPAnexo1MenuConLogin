@@ -6,13 +6,25 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@android:drawable/btn_star_big_on"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.TPAnexo1MenuConLogin"
         tools:targetApi="31">
+        <service
+            android:name=".ServicioMusica"
+            android:enabled="true"
+            android:exported="true">
+
+        </service>
+
         <activity
-            android:name=".MainActivity"
+            android:name=".NavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.TPAnexo1MenuConLogin.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
